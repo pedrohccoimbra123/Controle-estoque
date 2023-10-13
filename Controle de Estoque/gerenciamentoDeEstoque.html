@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilizacao.css">
+
+    <title>Magazine Luiza</title>
+</head>
+    
+
+
+<body>
+    <h1>Estoque</h1>
+    <div id="estoque">
+       
+    </div>
+
+    <h2>Controle de estoque</h2>
+    <form id="controle">
+        <input type="text" id="produto" placeholder="Produto" required>
+        <input type="number" id="quantidade" placeholder="Quantidade" required>
+        <button type="button" onclick="adicionarProduto()">Adicionar</button>
+        <button type="button" onclick="atualizarEstoque()">Atualizar</button>
+        <button type="button" onclick="deletarProduto()">Deletar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

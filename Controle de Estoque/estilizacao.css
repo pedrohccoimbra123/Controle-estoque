@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#estoque {
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 40px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 150px; 
+    margin-right: 10px;
+    height: 35px;    
+}
+
+button {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+button:hover{
+    background-color: #45a049;
+}
+
